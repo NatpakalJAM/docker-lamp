@@ -1,0 +1,10 @@
+version: '2'
+services:
+  lamp:
+    image: mattrayner/lamp:latest-1604-php7
+    container_name: my_lamp
+    volumes:
+      - ./app:/app
+      - ./mysql:/var/lib/mysql
+    ports: 
+      - 8080:80
