@@ -8,10 +8,10 @@
 
 Component | `LAMP`
 ---|---
-[Apache][apache] | 
-[MySQL][mysql] | 
-[PHP][php] | 
-[phpMyAdmin][phpmyadmin] | 
+[Apache][apache] | `Apache2`
+[MariaDB][mariadb] | `10.4-bionic` / `10.4.4`
+[PHP][php] | `7-apache` / `7.3.5`
+[phpMyAdmin][phpmyadmin] | `latest`
 
 ## Quick Start
 
@@ -28,7 +28,7 @@ $ docker-compose down
 ```
 
 [apache]: http://www.apache.org/
-[mysql]: https://www.mysql.com/
+[mariadb]: https://mariadb.org/
 [php]: http://php.net/
 [phpmyadmin]: https://www.phpmyadmin.net/
 

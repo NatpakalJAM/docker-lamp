@@ -28,7 +28,7 @@ services:
       - lamp-template
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
     container_name: lamp_phpmyadmin
     links: 
       - db:db
