@@ -1,20 +1,17 @@
-# Docker LAMP
+# Docker LAMP Stack
 
-> my simple lamp stack docker using [mattrayner/lamp](https://hub.docker.com/r/mattrayner/lamp)
+> my simple lamp stack docker
 
-[![Build Status][shield-build-status]][info-build-status]
-[![Docker Hub][shield-docker-hub]][info-docker-hub]
-[![Quay Status][shield-quay]][info-quay]
 [![License][shield-license]][info-license]
 
 ## Component
 
-Component | `latest-1604-php7`
+Component | `LAMP`
 ---|---
-[Apache][apache] | `2.4.18`
-[MySQL][mysql] | `5.7.23`
-[PHP][php] | `7.2.9`
-[phpMyAdmin][phpmyadmin] | `4.8.2`
+[Apache][apache] | 
+[MySQL][mysql] | 
+[PHP][php] | 
+[phpMyAdmin][phpmyadmin] | 
 
 ## Quick Start
 
@@ -35,12 +32,6 @@ $ docker-compose down
 [php]: http://php.net/
 [phpmyadmin]: https://www.phpmyadmin.net/
 
-[info-build-status]: https://circleci.com/gh/mattrayner/docker-lamp
-[info-docker-hub]: https://hub.docker.com/r/mattrayner/lamp
-[info-quay]: https://quay.io/repository/mattrayner/docker-lamp
 [info-license]: LICENSE
 
-[shield-build-status]: https://img.shields.io/circleci/project/mattrayner/docker-lamp.svg
-[shield-docker-hub]: https://img.shields.io/badge/docker%20hub-mattrayner%2Flamp-brightgreen.svg
-[shield-quay]: https://quay.io/repository/mattrayner/docker-lamp/status
 [shield-license]: https://img.shields.io/badge/license-Apache%202.0-blue.svg
